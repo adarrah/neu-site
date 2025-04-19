@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: house
 title: Neighbors of Edgewater and Uptown
-heroImage: https://photos.app.goo.gl/VJ1cubbTACC9BcTp9
+heroImage: https://lh3.googleusercontent.com/pw/AP1GczMzBEH6pqNLXwtsd8MGQypjflB4fElp7M41raSJc8n_uql74pDzAl_ph5SQVSa6a79RCFAprTMeOXL_tdy--hWhFHPvoOSFaxKdyqDLKAD6oylRYV8HZVGC8BWoTlju3qcT_TVWkETFC1nxUJ4QZp9GLg=w1800-h1355-s-no
 heroText: Neighbors of Edgewater and Uptown
 tagline: Moving Edgewater and Uptown Forward
 heroFullScreen: true
@@ -39,10 +39,4 @@ projects:
     link: https://link.to.your.friend
 
 # footer: customize your footer text
----
 
-This is a blog home page demo.
-
-To use this layout, you should set both `layout: BlogHome` and `home: true` in the page front matter.
-
-For related configuration docs, please see [blog homepage](https://theme-hope.vuejs.press/guide/blog/home.html).
