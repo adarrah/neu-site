@@ -10,6 +10,12 @@ jobs:
   run-deploy-pages:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          # if your docs needs submodules, uncomment the following line
+          submodules: true
       - name: Run Deploy Pages
         uses: ./docs/.github/workflows/deploy-docs.yml
         
