@@ -1,0 +1,17 @@
+
+name: Run Deploy Docs
+
+on: 
+  push:
+    branches: 
+      - main
+
+jobs:
+  run-deploy-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Deploy Pages
+        uses: actions/deploy-gh-pages
+        
+
+
