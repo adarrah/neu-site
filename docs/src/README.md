@@ -2,10 +2,10 @@
 home: true
 layout: BlogHome
 icon: house
-title: Blog Home
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: The name of your blog
-tagline: You can put your slogan here
+title: Neighbors of Edgewater and Uptown
+heroImage: https://photos.app.goo.gl/VJ1cubbTACC9BcTp9
+heroText: Neighbors of Edgewater and Uptown
+tagline: Moving Edgewater and Uptown Forward
 heroFullScreen: true
 projects:
   - icon: folder-open
@@ -38,7 +38,7 @@ projects:
     desc: Detailed description of this custom item
     link: https://link.to.your.friend
 
-footer: customize your footer text
+# footer: customize your footer text
 ---
 
 This is a blog home page demo.
