@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Deploy Pages
-        uses: actions/deploy-gh-pages
+        uses: docs/.github/workflows/deploy-docs.yml
         
 
 
