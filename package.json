@@ -1,19 +1,20 @@
 {
   "name": "neu-site",
+  "description": "Static Content Site for NEU",
   "version": "0.0.1",
-  "description": "Static Content Site for Neighbors of Edgewater and Uptown",
-  "main": "index.js",
+  "license": "",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src",
+    "docs:update-package": "npx vp-update"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adarrah/neu-site.git"
-  },
-  "author": "Allison Darrahill",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/adarrah/neu-site/issues"
-  },
-  "homepage": "https://github.com/adarrah/neu-site#readme"
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.21",
+    "sass-embedded": "^1.86.3",
+    "vue": "^3.5.13",
+    "vuepress": "2.0.0-rc.21",
+    "vuepress-theme-hope": "2.0.0-rc.82"
+  }
 }
