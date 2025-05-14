@@ -3,10 +3,10 @@ home: true
 layout: BlogHome
 icon: house
 title: Neighbors of Edgewater and Uptown
-heroImage: https://lh3.googleusercontent.com/pw/AP1GczMzBEH6pqNLXwtsd8MGQypjflB4fElp7M41raSJc8n_uql74pDzAl_ph5SQVSa6a79RCFAprTMeOXL_tdy--hWhFHPvoOSFaxKdyqDLKAD6oylRYV8HZVGC8BWoTlju3qcT_TVWkETFC1nxUJ4QZp9GLg=w1800-h1355-s-no
+heroImage: https://theme-hope-assets.vuejs.press/logo.svg;
 heroText: Neighbors of Edgewater and Uptown
 tagline: Moving Edgewater and Uptown Forward
-heroFullScreen: true
+heroFullScreen: false
 projects:
   - icon: folder-open
     name: project name
